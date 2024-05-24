@@ -49,7 +49,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/SheetJS/js-xlsx.git"
+		"url": "git://github.com/SuadeLabs/js-xlsx/"
 	},
 	"scripts": {
 		"pretest": "git submodule init && git submodule update",
@@ -70,9 +70,9 @@
 			"holes"
 		]
 	},
-	"homepage": "http://sheetjs.com/opensource",
+	"homepage": "https://github.com/SuadeLabs/js-xlsx/",
 	"bugs": {
-		"url": "https://github.com/SheetJS/js-xlsx/issues"
+		"url": "https://github.com/SuadeLabs/js-xlsx/"
 	},
 	"license": "Apache-2.0",
 	"engines": {
