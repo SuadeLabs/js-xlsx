@@ -13264,6 +13264,7 @@ return function parse_ws_xml_data(sdata, s, opts, guess, themes, styles) {
 			fmtid = fillid = 0;
 			if(do_format && tag.s !== undefined) {
 				cf = styles.CellXf[tag.s];
+				p.a = cf.alignment;
 				if(cf != null) {
 					if(cf.numFmtId != null) fmtid = cf.numFmtId;
 					if(opts.cellStyles) {
